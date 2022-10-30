@@ -48,7 +48,7 @@ YES
 
         // Solve
         for (int i = 1; i < n; ++i) {
-            int soLienTruoc = ++array[i - 1];
+            int soLienTruoc = array[i - 1] + 1;
             while (soLienTruoc != array[i]) {
                 System.out.print(soLienTruoc++ + " ");
                 ++count;
